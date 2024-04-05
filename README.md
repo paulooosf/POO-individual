@@ -1,3 +1,2 @@
 # POO-individual
-<div>
-</div>
+<img src=modeloLogico.png>

@@ -2,7 +2,7 @@ package br.com.paulo.projeto.entities;
 
 public class Usuario {
 	
-	private int id;
+	private Integer id;
 	private String nome;
 	private String email;
 	private String telefone;
@@ -13,7 +13,7 @@ public class Usuario {
 		super();
 	}
 
-	public Usuario(int id, String nome, String email, String telefone, String cpf, String genero) {
+	public Usuario(Integer id, String nome, String email, String telefone, String cpf, String genero) {
 		super();
 		this.id = id;
 		this.nome = nome;

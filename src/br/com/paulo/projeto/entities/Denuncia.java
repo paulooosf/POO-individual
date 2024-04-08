@@ -4,17 +4,17 @@ import java.time.LocalDate;
 
 public class Denuncia {
 	
-	private int id;
+	private Integer id;
 	private LocalDate data;
 	private String detalhamento;
-	private boolean anonimo;
-	private int fkUsu;
+	private Boolean anonimo;
+	private Integer fkUsu;
 	
 	public Denuncia() {
 		super();
 	}
 
-	public Denuncia(int id, LocalDate data, String detalhamento, boolean anonimo, int fkUsu) {
+	public Denuncia(Integer id, LocalDate data, String detalhamento, Boolean anonimo, Integer fkUsu) {
 		super();
 		this.id = id;
 		this.data = data;
@@ -23,11 +23,11 @@ public class Denuncia {
 		this.fkUsu = fkUsu;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -47,19 +47,19 @@ public class Denuncia {
 		this.detalhamento = detalhamento;
 	}
 
-	public boolean isAnonimo() {
+	public Boolean getAnonimo() {
 		return anonimo;
 	}
 
-	public void setAnonimo(boolean anonimo) {
+	public void setAnonimo(Boolean anonimo) {
 		this.anonimo = anonimo;
 	}
 
-	public int getFkUsu() {
+	public Integer getFkUsu() {
 		return fkUsu;
 	}
 
-	public void setFkUsu(int fkUsu) {
+	public void setFkUsu(Integer fkUsu) {
 		this.fkUsu = fkUsu;
 	}
 }

@@ -1,5 +1,8 @@
 package br.com.paulo.projeto.entities;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Usuario {
 	
 	private Integer id;
@@ -8,6 +11,8 @@ public class Usuario {
 	private String telefone;
 	private String cpf;
 	private String genero;
+	
+	static Map<Integer, Usuario> mapaUsuarios = new HashMap<>();
 	
 	public Usuario() {
 		super();
@@ -69,6 +74,16 @@ public class Usuario {
 
 	public void setGenero(String genero) {
 		this.genero = genero;
+	}
+
+	public static Map<Integer, Usuario> getMapaUsuarios() {
+		return mapaUsuarios;
+	}
+
+	@Override
+	public String toString() {
+		return "Usuario [id=" + id + ", nome=" + nome + ", email=" + email + ", telefone=" + telefone + ", cpf=" + cpf
+				+ ", genero=" + genero + "]";
 	}
 	
 }

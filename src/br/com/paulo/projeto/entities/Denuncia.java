@@ -1,6 +1,8 @@
 package br.com.paulo.projeto.entities;
 
 import java.time.LocalDate;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Denuncia {
 	
@@ -9,6 +11,8 @@ public class Denuncia {
 	private String detalhamento;
 	private Boolean anonimo;
 	private Integer fkUsu;
+	
+	static Map<Integer, Denuncia> mapaDenuncias = new HashMap<>();
 	
 	public Denuncia() {
 		super();
@@ -62,4 +66,15 @@ public class Denuncia {
 	public void setFkUsu(Integer fkUsu) {
 		this.fkUsu = fkUsu;
 	}
+
+	public static Map<Integer, Denuncia> getMapaDenuncias() {
+		return mapaDenuncias;
+	}
+
+	@Override
+	public String toString() {
+		return "Denuncia [id=" + id + ", data=" + data + ", detalhamento=" + detalhamento + ", anonimo=" + anonimo
+				+ ", fkUsu=" + fkUsu + "]";
+	}
+	
 }

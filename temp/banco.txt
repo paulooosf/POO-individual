@@ -1,0 +1,10 @@
+Denuncia;1;2023-12-05;Fui assaltado na porta de casa;false;1
+Denuncia;2;2023-12-15;Presenciei um assassinato;true;2
+Denuncia;3;2024-01-25;Existe uma boca de fumo em funcionamento perto de mim;true;3
+Denuncia;4;2024-02-12;Sofri cyberbullying;false;4
+Denuncia;5;2024-03-24;Violência doméstica acontecendo;true;5
+Usuario;1;Maria Paula;mapa2005@gmail.com;(24)96587-4175;125.478.912-13;Feminino
+Usuario;2;Daniel Esteves;roverdoseskc@hotmail.com;(55)94517-9648;098.947.617-05;Masculino
+Usuario;3;Marcio Pereira;mama.gala25@outlook.com;(22)98854-7256;122.045.895-50;Masculino
+Usuario;4;Valentina Souza;valent11n4@gmail.com;(21)98654-7844;054.984.789-15;Feminino
+Usuario;5;Marcia Ferreira;marcinha22547@gmail.com;(24)98653-9451;154.978.154-18;Feminino

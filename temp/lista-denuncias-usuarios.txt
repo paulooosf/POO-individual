@@ -1,0 +1,34 @@
+-------RELATÓRIO: LISTA DE DENUNCIAS POR USUARIOS------
+
+Detalhamento:Fui assaltado na porta de casa
+Anônimo: false
+Usuário:Maria Paula
+Detalhamento:Presenciei um assassinato
+Anônimo: true
+Usuário:Daniel Esteves
+Detalhamento:Existe uma boca de fumo em funcionamento perto de mim
+Anônimo: true
+Usuário:Marcio Pereira
+Detalhamento:Sofri cyberbullying
+Anônimo: false
+Usuário:Valentina Souza
+Detalhamento:Violência doméstica acontecendo
+Anônimo: true
+Usuário:Marcia Ferreira
+
+Data da requisição: 11/04/2024 22:04:17
+
+---------FIM DA LISTA DE DENUNCIAS POR USUARIOS--------
+
+-------RELATÓRIO: LISTA DE DENUNCIAS POR USUARIOS------
+
+Detalhamento:Fui assaltado na porta de casa Anônimo: false Usuário:Maria Paula
+Detalhamento:Presenciei um assassinato Anônimo: true Usuário:Daniel Esteves
+Detalhamento:Existe uma boca de fumo em funcionamento perto de mim Anônimo: true Usuário:Marcio Pereira
+Detalhamento:Sofri cyberbullying Anônimo: false Usuário:Valentina Souza
+Detalhamento:Violência doméstica acontecendo Anônimo: true Usuário:Marcia Ferreira
+
+Data da requisição: 11/04/2024 22:05:25
+
+---------FIM DA LISTA DE DENUNCIAS POR USUARIOS--------
+

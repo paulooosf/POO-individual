@@ -73,8 +73,11 @@ public class Denuncia {
 
 	@Override
 	public String toString() {
-		return "Denuncia [id=" + id + ", data=" + data + ", detalhamento=" + detalhamento + ", anonimo=" + anonimo
-				+ ", fkUsu=" + fkUsu + "]";
+		if (anonimo == true) {
+			return "\n + Denuncia ID " + id + " | Data: " + data + " | Detalhamento: " + detalhamento + " | Anônimo: Sim";
+		} else {
+			return "\n + Denuncia ID " + id + " | Data: " + data + " | Detalhamento: " + detalhamento + " | Anônimo: Não";
+		}
 	}
 	
 }

@@ -5,27 +5,19 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import javax.swing.text.DateFormatter;
 
 import br.com.paulo.projeto.entities.Denuncia;
 import br.com.paulo.projeto.entities.Usuario;
 import br.com.paulo.projeto.enums.TipoRegistro;
-import br.com.paulo.util.Util;
 
 public class RelatorioIO {
 
 	static final String CAMINHO_BASICO = "./temp/";
 	static final String EXTENSAO = ".txt";
-	private static Logger logger = Util.setupLogger();
 	static DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 	static DateTimeFormatter dtfBr = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
 

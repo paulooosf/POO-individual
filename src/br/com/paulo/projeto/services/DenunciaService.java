@@ -17,11 +17,14 @@ public class DenunciaService {
 
 			listaDenuncias.add(denuncia);
 		}
-		RelatorioIO.relatorioListaDenuncia(listaDenuncias);
 		return listaDenuncias;
 	}
 	
-	public void listaDenunciaUsuario() throws IOException {
-		RelatorioIO.relatorioListaDenunciaUsuario(listaDenuncias(), UsuarioService.listaNomesUsuarios());
+	public static void relatorioDenunciaUsuario() throws IOException {
+		RelatorioIO.relatorioListaDenunciaUsuario(listaDenuncias(), UsuarioService.listaUsuarios());
+	}
+	
+	public static void relatorioDenuncias() throws IOException {
+		RelatorioIO.relatorioListaDenuncia(listaDenuncias());
 	}
 }

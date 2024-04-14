@@ -9,15 +9,17 @@ import br.com.paulo.projeto.io.RelatorioIO;
 
 public class UsuarioService {
 
-	public static List<Usuario> listaNomesUsuarios() throws IOException {
+	public static List<Usuario> listaUsuarios() throws IOException {
 
 		List<Usuario> listaNomesUsuarios = new ArrayList<>();
 
 		for (Usuario usuario : Usuario.getMapaUsuarios().values()) {
-
 			listaNomesUsuarios.add(usuario);
 		}
-		RelatorioIO.relatorioListaUsuarios(listaNomesUsuarios);
 		return listaNomesUsuarios;
+	}
+	
+	public static void relatorioUsuarios() throws IOException {
+		RelatorioIO.relatorioListaUsuarios(listaUsuarios());
 	}
 }

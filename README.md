@@ -25,7 +25,6 @@ Turma 18
 
 ## :desktop_computer: Sobre o Projeto
 
-Contexto
 <ul>
 	Seguindo o trabalho individual de Banco de Dados, foram resgatadas duas entidades para desenvolver um sistema básico em Java para gerenciamento de dados. Foi consumido um arquivo de texto com dados, sendo armazenados em um mapa.
 	O sistema apresenta um menu e possui duas funcionalidades principais: Imprimir relatórios na tela e imprimir relatórios em outros arquivos .txt. 
@@ -42,7 +41,7 @@ Contexto
 <div align="center">
  
   ## Modelo Lógico (Banco de Dados)
-  <img src=ModeloLogico.png>
+  <img src=modeloLogico.png>
 
 </div>
 

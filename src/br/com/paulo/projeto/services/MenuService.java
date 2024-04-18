@@ -43,13 +43,13 @@ public class MenuService {
 				break;
 			default:
 				Util.customizer();
-				logger.log(Level.WARNING, "Opção inválida!");
+				logger.log(Level.INFO, "Opção inválida!");
 				menu();
 				break;
 			}
 		}
 		catch (InputMismatchException e) {
-			logger.log(Level.INFO, "Digite um número inteiro!");
+			logger.log(Level.WARNING, "Digite um número inteiro!");
 		}
 	}
 }

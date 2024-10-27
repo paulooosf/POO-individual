@@ -1,50 +1,19 @@
-<h1>
-  
-</h1>
-<h1 align="center">
-PROGRAMAÇÃO ORIENTADA A OBJETOS
+<h1 align="center">POO - Individual</h1>
+<h4 align="center">Seguindo o trabalho individual de Banco de Dados, foram resgatadas duas entidades para desenvolver um sistema básico em Java para gerenciamento de dados. Foi consumido um arquivo de texto com dados, sendo armazenados em um mapa.</h4>
+<p align="center">
+  <img alt="Java" src="https://img.shields.io/badge/JAVA-%23F80820?style=for-the-badge&logoColor=%23F80820&labelColor=black">
+</p>
+<p align="center">
+  <a href="#funcionalidade">Funcionalidade</a> •
+  <a href="#diagrama">Diagrama</a> •
+  <a href="#créditos">Créditos</a>
+</p>
 
-JAVA
-</h1>
-</h2>
-<h2 align="center">
-Paulo Henrique
+## Funcionalidade
+O sistema apresenta um menu e possui duas funcionalidades principais: Imprimir relatórios na tela e imprimir relatórios em outros arquivos .txt.
+## Diagrama
+### Modelo Lógico (Banco de Dados)
+<img src=modeloLogico.png>
 
-Turma 18
-</h2>
-
-## 📝 Índice
-
-<ul>
-    <li>Sobre o Projeto</li>
-    <li>Tecnologias utilizadas</li>
-    <li>Diagrama</li>
-    <li>Autores do Projeto</li>
-</ul>
-
-
-## :desktop_computer: Sobre o Projeto
-
-<ul>
-	Seguindo o trabalho individual de Banco de Dados, foram resgatadas duas entidades para desenvolver um sistema básico em Java para gerenciamento de dados. Foi consumido um arquivo de texto com dados, sendo armazenados em um mapa.
-	O sistema apresenta um menu e possui duas funcionalidades principais: Imprimir relatórios na tela e imprimir relatórios em outros arquivos .txt. 
-</ul>
-
-## :hammer_and_wrench: Tecnologias utilizadas
-
-- [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-- [Eclipse (Spring Tool)](https://spring.io/tools)
-- [GitHub](https://github.com/)
-
-## :chart_with_upwards_trend: Diagramas
-
-<div align="center">
- 
-  ## Modelo Lógico (Banco de Dados)
-  <img src=modeloLogico.png>
-
-</div>
-
-## 👀 Autor
-  Paulo Henrique - [paulooosf](http://github.com/paulooosf)
-
+## Créditos
+- Paulo Henrique - [paulooosf](http://github.com/paulooosf)
